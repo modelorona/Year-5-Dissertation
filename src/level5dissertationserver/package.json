@@ -1,0 +1,16 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "websocket.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "modelorona",
+  "license": "MIT",
+  "dependencies": {
+    "firebase-admin": "^9.4.2",
+    "uWebSockets.js": "github:uNetworking/uWebSockets.js#v18.14.0"
+  }
+}

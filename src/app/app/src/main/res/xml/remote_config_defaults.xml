@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <defaultsMap>
+        <entry>
+            <key>consistent_gossip</key>
+            <value>false</value>
+        </entry>
+        <entry>
+            <key>consistent_data_frame</key>
+            <value>true</value>
+        </entry>
+        <entry>
+            <key>data_cut_off</key>
+            <value>1614770465743</value>
+        </entry>
+    </defaultsMap>
+</resources>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:shrinkMode="strict">
+    <string name="app_name">Dissertation</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">SIAS Quiz</string>
+    <string name="not_at_all">not at all</string>
+    <string name="slightly">slightly</string>
+    <string name="moderately">moderately</string>
+    <string name="very">very</string>
+    <string name="extremely">extremely</string>
+    <string name="main_act_string">
+        Please first allow permissions by toggling them in the settings, and then click the button below to start the SIAS evaluation.
+        Once taken, the score will be displayed and then saved to your device.
+        Once you have taken the test, please start the data collection using the second button.
+        If you retake the test, the new score will not be saved.
+        Please, do not clear any application space for the duration of the study.</string>
+    <string name="start_sias_test">Start SIAS Test</string>
+    <string name="shpref_prefix">level5dissertation2255541h</string>
+    <string name="preference_file_key">level5dissertationprefs</string>
+
+    <!--    question strings-->
+    <string name="q1" tools:keep="@string/q1">I get nervous if I have to speak with someone in authority (teacher, boss, etc.).</string>
+    <string name="q2" tools:keep="@string/q2">I have difficulty making eye contact with others.</string>
+    <string name="q3" tools:keep="@string/q3">I become tense if I have to talk about myself or my feelings.</string>
+    <string name="q4" tools:keep="@string/q4">I find it difficult to mix comfortably with the people I work with.</string>
+    <string name="q5" tools:keep="@string/q5">I find it easy to make friends my own age.</string>
+    <string name="q6" tools:keep="@string/q6">I tense up if I meet an acquaintance in the street.</string>
+    <string name="q7" tools:keep="@string/q7">When mixing socially, I am uncomfortable.</string>
+    <string name="q8" tools:keep="@string/q8">I feel tense if I am alone with just one other person.</string>
+    <string name="q9" tools:keep="@string/q9">I am at ease meeting people at parties, etc.</string>
+    <string name="q10" tools:keep="@string/q10">I have difficulty talking with other people.</string>
+    <string name="q11" tools:keep="@string/q11">I find it easy to think of things to talk about.</string>
+    <string name="q12" tools:keep="@string/q12">I worry about expressing myself in case I appear awkward.</string>
+    <string name="q13" tools:keep="@string/q13">I find it difficult to disagree with another’s point of view.</string>
+    <string name="q14" tools:keep="@string/q14">I have difficulty talking to attractive persons of the opposite sex.</string>
+    <string name="q15" tools:keep="@string/q15">I find myself worrying that I won’t know what to say in social situations.</string>
+    <string name="q16" tools:keep="@string/q16">I am nervous mixing with people I don’t know well.</string>
+    <string name="q17" tools:keep="@string/q17">I feel I’ll say something embarrassing when talking.</string>
+    <string name="q18" tools:keep="@string/q18">When mixing in a group, I find myself worrying I will be ignored.</string>
+    <string name="q19" tools:keep="@string/q19">I am tense mixing in a group.</string>
+    <string name="q20" tools:keep="@string/q20">I am unsure whether to greet someone I know only slightly.</string>
+
+    <string name="usage_stats_pref">usage_stats_pref</string>
+    <string name="battery_opt_pref">battery_opt_pref</string>
+    <string name="data_collection_is_off">Data Collection is Off</string>
+    <string name="data_collection_is_on">Data Collection is On</string>
+    <string name="keep_alive_service">keep_alive</string>
+    <string name="alive_notif_text">Data is being collected in the background.</string>
+    <string name="monitor_service">monitoring_service</string>
+    <string name="boot_data_disabled">This is due to data collection being disabled in the app. Please click here to go to enable it.</string>
+    <string name="boot_notif_title">Dissertation App Data Collection</string>
+    <string name="see_personal_sias_pref">see_personal_sias_pref</string>
+    <string name="license_pref">license_pref</string>
+    <string name="sias_url">https://en.wikipedia.org/wiki/Social_Interaction_Anxiety_Scale</string>
+    <string name="test_save_fail">Test could not save</string>
+    <string name="thanks">Thank you</string>
+    <string name="done">Finish</string>
+    <string name="try_again">Try again</string>
+    <string name="cancel">Cancel</string>
+    <string name="save_fail_message">A system error occurred and the test score could not be saved. Please try again by clicking the button, or if the error persists, quit and immediately email me at 2255541h@student.gla.ac.uk.</string>
+    <string name="know_more">If you would like to know more about this test, you can find more information in the application settings.</string>
+    <string name="your_score">Thank you for taking the test. Your SIAS score is</string>
+    <string name="permissions" />
+    <string name="enable_permissions">Please make sure to enable the Usage Statistics permisssion and then disable battery optimisations. You can find this in the settings.</string>
+    <string name="go_to_settings">Go to Settings</string>
+    <string name="pref_data_record">_RECORDING_DATA</string>
+
+    <string name="persistence_notif_id">persistence_notif_id</string>
+    <string name="persistence_notif_desc">Shows a notification if data is being collected or not</string>
+    <string name="persistence_notif_name">Persistent Notification Channel</string>
+    <string name="persistence_notif_group">Persistent Notification Group</string>
+
+    <string name="collection_on_boot_desc">Shows a notification whenever the phone restarts notifying the user if the data collection has resumed or not</string>
+    <string name="collection_on_boot_name">On Boot Notification</string>
+    <string name="collection_on_boot_id">collection_on_boot_id</string>
+    <string name="collection_on_boot_group">On Boot Group</string>
+
+    <string name="on_collection_name">On Data Collection Channel</string>
+    <string name="on_collection_desc">Shows a notification whenever data is collected in a user session</string>
+    <string name="on_collection_id">on_collection_id</string>
+    <string name="on_collection_group" tools:keep="@string/on_collection_group">On Data Collection Group</string>
+    <string name="undefined">UNDEFINED</string>
+    <string name="name">name</string>
+    <string name="category">category</string>
+    <string name="package_name">packageName</string>
+    <string name="session_start">sessionStart</string>
+    <string name="session_end">sessionEnd</string>
+    <string name="collection_occurred" tools:keep="@string/collection_occurred">Dissertation App Data Collection</string>
+    <string name="success" tools:keep="@string/success">success</string>
+    <string name="not_yet_taken_test">You have not yet taken the test.</string>
+    <string name="cliptext_id">dissertation user id</string>
+    <string name="id_copied">Your personal identifier was copied to the clipboard.</string>
+    <string name="data_col_resumed">Data collection has resumed</string>
+    <string name="data_col_not_resumed">Data collection has not resumed.</string>
+    <string name="train_model">Train Model</string>
+    <string name="see_personal_id_pref">see_personal_id_pref</string>
+    <string name="pref_no_id">The app has not yet generated a key for you.</string>
+    <string name="see_your_data_pref">see_your_data_pref</string>
+    <string name="session_db">Session.db</string>
+    <string name="success_opt_pref">success_opt_pref</string>
+    <string name="permission_cat">permission_category</string>
+    <string name="permission_title">Permissions</string>
+    <string name="usage_stat_title">Usage Stats</string>
+    <string name="usage_stat_summary">Click here to enable the usage stats permission</string>
+    <string name="battery_title">Battery</string>
+    <string name="battery_summary">Click here to disable battery optimization</string>
+    <string name="success_title">Success Notification</string>
+    <string name="success_summary">Click here to toggle the successful data collection notification. It serves no functional purpose however you may like the success indicator.</string>
+    <string name="success_default">false</string>
+    <string name="info_category">info_category</string>
+    <string name="info_category_title">Information</string>
+    <string name="sias_score_title">Your SIAS score</string>
+    <string name="id_pref_title">Your personal identifier</string>
+
+    <string name="gossip_service">gossip_service</string>
+    <string name="gossip_notif_id">gossip_notif_id</string>
+    <string name="gossip_notif_text">Background service is in action.</string>
+    <string name="gossip_ticker">Gossip Ticker</string>
+    <string name="gossip_name">Dissertation Service</string>
+    <string name="gossip_notif_name">Service Channel</string>
+    <string name="gossip_notif_desc">Shows if the service is running</string>
+    <string name="webrtc_error_msg">An error occurred.</string>
+    <string name="pref_gossip_enabled">gossip_enabled</string>
+    <string name="anxious">anxious</string>
+    <string name="ml_channel_id">ml_channel_id</string>
+    <string name="ml_channel_name">Machine Learning Channel</string>
+    <string name="ml_channel_desc">Shows a notification if the machine is learning.</string>
+    <string name="ml_notif_title">Training local model</string>
+    <string name="data_delete_succ_toast">Data failed to delete. Please manually clear the cache and data from the system settings.</string>
+    <string name="data_exported">Your data has been exported.</string>
+    <string name="data_export_error">Data may not have been fully exported due to a system error.</string>
+    <string name="data_del_confirm">Data Deletion Confirmation</string>
+    <string name="data_del_msg">Use this option to delete the application data from your phone. If it succeeds, the application should stop and close right away. In case it fails, you will need to manually go into the system settings and clear the data from there. This will not clear any data that you may have exported from within the Settings.</string>
+    <string name="config_data_frame">consistent_data_frame</string>
+    <string name="config_gossip">consistent_gossip</string>
+    <string name="delete_settings">delete_settings</string>
+    <string name="train_overall_model">train_overall_model</string>
+    <string name="sias_pref">sias_pref</string>
+
+</resources>

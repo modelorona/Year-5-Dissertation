@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:key="@string/permission_cat"
+        app:title="@string/permission_title">
+
+        <SwitchPreferenceCompat
+            app:key="@string/usage_stats_pref"
+            app:title="@string/usage_stat_title"
+            app:summary="@string/usage_stat_summary" />
+
+        <SwitchPreferenceCompat
+            app:key="@string/battery_opt_pref"
+            app:title="@string/battery_title"
+            app:summary="@string/battery_summary" />
+
+        <SwitchPreferenceCompat
+            app:key="@string/success_opt_pref"
+            app:title="@string/success_title"
+            app:defaultValue="@string/success_default"
+            app:summary="@string/success_summary" />
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:key="@string/info_category"
+        app:title="@string/info_category_title">
+
+        <Preference
+            app:key="@string/see_personal_sias_pref"
+            app:title="@string/sias_score_title"
+            app:summary="Click to see your SIAS score." />
+
+        <Preference
+            app:key="@string/see_personal_id_pref"
+            app:title="@string/id_pref_title"
+            app:summary="Click to see your randomly generated identifier." />
+
+        <Preference
+            app:key="@string/see_your_data_pref"
+            app:title="Your personal data"
+            app:summary="Click this button to export session data to a CSV file." />
+
+        <Preference
+            app:key="@string/delete_settings"
+            app:title="Delete all data on phone"
+            app:summary="Click to delete all collected data on the phone." />
+
+        <Preference
+            app:key="@string/train_overall_model"
+            app:title="Train overall model"
+            app:summary="Click to train the overall model. Please do not click this unless asked to." />
+
+        <Preference
+            app:key="@string/sias_pref"
+            app:title="What is SIAS"
+            app:summary="Learn more about what the SIAS is. (Opens a Wikipedia link)">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/sias_url" />
+        </Preference>
+
+        <Preference
+            app:key="@string/license_pref"
+            app:title="License information"
+            app:summary="See open-source project licenses" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

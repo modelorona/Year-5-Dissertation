@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:shrinkMode="strict">
+    <integer name="keep_alive_notif_channel">543</integer>
+    <integer name="boot_service">69</integer>
+    <integer name="request_usage_stats_code">102</integer>
+    <integer name="request_battery_optimisation_code">101</integer>
+    <integer name="gossip_keep_alive">666</integer>
+    <integer name="ml_channel_notif_id">69300</integer>
+</resources>
